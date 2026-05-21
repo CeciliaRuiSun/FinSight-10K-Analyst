@@ -1,0 +1,14 @@
+# Ignore local environment keys and credentials (CRITICAL)
+.env
+
+# Ignore native Python virtual environments
+venv/
+.venv/
+
+# Ignore the local persistence storage indexes (cache)
+storage/
+
+# Ignore system-level clutter files
+.DS_Store
+__pycache__/
+*.pyc
